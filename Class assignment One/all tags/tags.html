@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="HTML tags demonstration for Chapter 2" />
+  <meta name="keywords" content="HTML, tags, web development" />
+  <meta name="robots" content="index, follow" />
+  <link rel="icon" href="favicon.ico" />
+  <title>Chapter 2 - HTML Tags</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background-color: #ffffff;
+      color: #000000;
+    }
+
+    h1, h2, h3, h6 {
+      color: #333;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 60%;
+      margin: 10px 0;
+    }
+
+    table, th, td {
+      border: 1px solid black;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    form {
+      margin: 10px 0;
+    }
+
+    label {
+      display: inline-block;
+      width: 180px;
+    }
+
+    input, select, textarea {
+      margin: 5px 0;
+    }
+
+    audio, video {
+      display: block;
+      margin: 10px 0;
+    }
+
+    blockquote {
+      border-left: 3px solid #ccc;
+      padding-left: 10px;
+      color: #555;
+    }
+
+    pre {
+      background-color: #f4f4f4;
+      padding: 10px;
+    }
+
+    aside {
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      padding: 8px;
+      width: 40%;
+    }
+
+    article {
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin: 10px 0;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ccc;
+      margin: 30px 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>HTML Tags So Far</h1>
+  <p>This page demonstrates html tags learned so far and more.</p>
+
+
+    <nav>
+    <a href="#text">Text Tags</a> |
+    <a href="#lists">Lists</a> |
+    <a href="#tables">Tables</a> |
+    <a href="#forms">Forms</a>
+  </nav>
+
+  <hr>
+
+  <h2>Paragraph</h2>
+  <p>This is a paragraph. Paragraphs are used to write blocks of text on a web page.</p>
+
+  <hr>
+
+  <h2 id="text">Text Formatting</h2>
+
+  <p>This is <b>bold text</b> using the b tag.</p>
+  <p>This is <i>italic text</i> using the i tag.</p>
+  <p>This is <u>underlined text</u> using the u tag.</p>
+  <p>This is <s>strikethrough text</s> using the s tag.</p>
+  <p>This is also <strike>strikethrough</strike> using the strike tag.</p>
+  <p>This is <em>emphasized text</em> using the em tag.</p>
+  <p>This is <strong>strong text</strong> using the strong tag.</p>
+  <p>This is <small>small text</small> using the small tag.</p>
+  <p>This is <big>big text</big> using the big tag.</p>
+  <p>This word is <mark>highlighted</mark> using the mark tag.</p>
+  <p>Water chemical formula: H<sub>2</sub>O uses the sub tag.</p>
+  <p>X squared: X<sup>2</sup> uses the sup tag.</p>
+  <p>This line breaks here.<br>This is the next line using the br tag.</p>
+  <p>This is a long word that can break: supercali<wbr>fragilistic<wbr>expialidocious using the wbr tag.</p>
+  <p>The word <span style="color: blue;">blue</span> is colored using a span tag.</p>
+
+  <hr>
+
+  <h2>Abbreviation and Acronym</h2>
+  <p><abbr title="HyperText Markup Language">HTML</abbr> is used to create web pages.</p>
+  <p><acronym title="Cascading Style Sheets">CSS</acronym> is used to style web pages.</p>
+
+  <hr>
+
+  <h2>Definition and Variable</h2>
+  <p>A <dfn>markup language</dfn> is a system for annotating a document.</p>
+  <p>In the equation, <var>x</var> represents an unknown value.</p>
+
+  <hr>
+
+  <h2>Quotations</h2>
+  <p>He said: <q>HTML is the backbone of the web.</q></p>
+  <blockquote>
+    "The web does not just connect machines, it connects people." - Tim Berners-Lee
+  </blockquote>
+
+  <hr>
+
+  <h2>Code and Preformatted Text</h2>
+  <p>To create a paragraph use: <code>&lt;p&gt;your text&lt;/p&gt;</code></p>
+  <p>Old terminal output used the <tt>teletype tag</tt> for monospaced text.</p>
+  <p>Press <kdb>Ctrl + S</kdb> to save your file.</p>
+  <pre>
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;My Page&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;Hello World&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+  </pre>
+
+  <hr>
+
+  <h2>Headings</h2>
+  <h1>This is a h1 heading</h1>
+  <h2>This is a h2 heading</h2>
+  <h3>This is a h3 heading</h3>
+  <h6>This is a h6 heading</h6>
+
+  <hgroup>
+    <h3>HTML for Beginners</h3>
+    <p>A guide to learning HTML from scratch.</p>
+  </hgroup>
+
+  <hr>
+
+  <h2>Links</h2>
+  <p><a href="http://www.w3schools.com">Click here to visit W3Schools</a></p>
+  <p><a href="http://www.w3schools.com/" target="_blank">Open W3Schools in a new tab</a></p>
+  <p><a href="http://Microsoft.com/">Go to Microsoft</a></p>
+ 
+  <hr>
+
+  <h2 id="lists">Lists</h2>
+
+  <p>Unordered list:</p>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+
+  <p>Unordered list with disc type:</p>
+  <ul type="disc">
+    <li>First item</li>
+    <li>Second item</li>
+  </ul>
+
+  <p>Ordered list:</p>
+  <ol>
+    <li>Open a text editor</li>
+    <li>Write your HTML code</li>
+    <li>Save the file as .html</li>
+    <li>Open it in a browser</li>
+  </ol>
+
+  <p>Definition list:</p>
+  <dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language, used to structure web pages.</dd>
+    <dt>CSS</dt>
+    <dd>Cascading Style Sheets, used to style web pages.</dd>
+  </dl>
+
+  <hr>
+
+  <h2 id="tables">Table</h2>
+  <table>
+    <colgroup>
+      <col style="width: 30%;">
+      <col style="width: 40%;">
+      <col style="width: 30%;">
+    </colgroup>
+    <thead>
+      <tr>
+        <th>Tag</th>
+        <th>Description</th>
+        <th>Type</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>&lt;p&gt;</td>
+        <td>Defines a paragraph</td>
+        <td>Block</td>
+      </tr>
+      <tr>
+        <td>&lt;b&gt;</td>
+        <td>Bold text</td>
+        <td>Inline</td>
+      </tr>
+      <tr>
+        <td>&lt;a&gt;</td>
+        <td>Defines a hyperlink</td>
+        <td>Inline</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3">End of table</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <hr>
+
+  <h2>Images</h2>
+  <figure>
+    <img src="Sahara.jpg" alt="Sahara Dessert" width="200" />
+    <figcaption>This is the Sahara desert using the img tag.</figcaption>
+  </figure>
+
+  <p>Image map example (click a region):</p>
+  <img src="https://placehold.co/400x100/dddddd/333333?text=Click+left+or+right" alt="Image map" usemap="#demomap" width="400" />
+  <map name="demomap">
+    <area shape="rect" coords="0,0,200,100" href="Cheetah.jpg" alt="Left side" title="You clicked the left side" />
+    <area shape="rect" coords="200,0,400,100" href="Sakura.jpg" alt="Right side" title="You clicked the right side" />
+  </map>
+
+  <hr>
+
+  <h2>Audio and Video</h2>
+  <p>Audio example:</p>
+  <audio controls>
+    <source src="Invincible.mp3" type="audio/mpeg" />
+    
+  </audio>
+
+  <p>Video example:</p>
+  <video controls width="400">
+    <source src="Rickroll.mp4" type="video/mp4" />
+    
+  </video>
+
+  <hr>
+
+  <h2>Semantic Layout Tags</h2>
+
+  <br>
+
+  <section>
+    <p>This content is inside a section tag. A section groups related content together.</p>
+  </section>
+
+  <article>
+    <h3>What is HTML?</h3>
+    <p>HTML stands for HyperText Markup Language. It is the standard language for creating web pages. This text is inside an article tag.</p>
+  </article>
+
+  <aside>
+    <p>This is an aside. It contains extra information related to the main content, like a side note.</p>
+  </aside>
+
+  <div style="background-color: #f0f0f0; padding: 10px; margin: 10px 0;">
+    This is a div tag used as a generic container to group elements.
+  </div>
+
+  <hr>
+
+  <h2 id = "forms">Forms</h2>
+
+  <form method="get">
+
+    <p><label for="txt">Text input:</label><br>
+    <input type="text" id="txt" name="username" placeholder="Enter your name" required /></p>
+
+    <p><label for="eml">Email input:</label><br>
+    <input type="email" id="eml" name="email" placeholder="Enter your email" required /></p>
+
+    <p><label for="pwd">Password input:</label><br>
+    <input type="password" id="pwd" name="password" placeholder="Enter password" required/></p>
+
+    <p><label for="num">Number input:</label><br>
+    <input type="number" id="num" name="age" placeholder="Enter a number" required /></p>
+
+    <p><label for="url">URL input:</label><br>
+    <input type="url" id="url" name="website" placeholder="https://example.com" /></p>
+
+    <p><label for="srch">Search input:</label><br>
+    <input type="search" id="srch" name="search" placeholder="Search..."  /></p>
+
+    <p><label for="dt">Date input:</label><br>
+    <input type="date" id="dt" name="date" /></p>
+
+    <p><label for="clr">Color input:</label><br>
+    <input type="color" id="clr" name="color" value="#ff0000" /></p>
+
+    <p><label for="rng">Range input:</label><br>
+    <input type="range" id="rng" name="range" min="0" max="100" /></p>
+
+    <p>Radio buttons:<br>
+    <input type="radio" name="choice" id="r1" value="yes" /> <label for="r1">Yes</label>
+    <input type="radio" name="choice" id="r2" value="no" /> <label for="r2">No</label></p>
+
+    <p>Checkbox:<br>
+    <input type="checkbox" id="chk" name="agree" /> <label for="chk">I agree to the terms</label></p>
+
+    <p><label for="day">Select a day:</label><br>
+    <select id="day" name="day">
+      <optgroup label="Weekdays">
+        <option value="mon">Monday</option>
+        <option value="tue">Tuesday</option>
+        <option value="wed" selected>Wednesday</option>
+      </optgroup>
+      <optgroup label="Weekend">
+        <option value="sat">Saturday</option>
+        <option value="sun">Sunday</option>
+      </optgroup>
+    </select></p>
+
+    <p><label for="browser">Datalist (browser suggestions):</label><br>
+    <input list="browsers" id="browser" name="browser" placeholder="Type a browser..." />
+    <datalist id="browsers">
+      <option value="Chrome" >
+      <option value="Firefox" >
+      <option value="Safari" >
+      <option value="Edge" >
+    </datalist></p>
+
+    <p><label for="msg">Textarea:</label><br>
+    <textarea id="msg" name="message" rows="4" cols="40" placeholder="Write your message here..."></textarea></p>
+
+    <p>
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+      <input type="button" value="Click Me" onclick="alert('Button clicked!')" />
+    </p>
+
+  </form>
+
+</body>
+</html>
